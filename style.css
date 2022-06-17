@@ -82,12 +82,8 @@ button {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
 }
-.btn1, .btn3 {
-  margin-top: 60px;
-  margin-bottom: 10px;
-}
-.btn2 {
-  margin-top: 5px;
+.btn1, .btn2 .btn3 {
+  margin-top: 2rem;
   margin-bottom: 10px;
 }
 @media (max-width: 875px) and (min-width: 375px) {
