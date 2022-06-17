@@ -29,20 +29,20 @@ p {
 .sedan {
   background-color: hsl(31, 77%, 52%);
   padding: 2em;
-  width: 320px;
+  width: 300px;
   height: 500px;
   border-radius: 15px 0px 0px 15px;
 }
 .Suv {
   background-color: hsl(184, 100%, 22%);
   padding: 2em;
-  width: 320px;
+  width: 300px;
   height: 500px;
 }
 .luxury {
   background-color: hsl(179, 100%, 13%);
   padding: 2em;
-  width: 320px;
+  width: 300px;
   height: 500px;
   border-radius: 0px 15px 15px 0px;
 }
@@ -103,19 +103,19 @@ button {
 .sedan {
   background-color: hsl(31, 77%, 52%);
   padding: 3%;
-  width: 320px;
+  width: 300px;
   border-radius: 25px;
 }
 .Suv {
   background-color: hsl(184, 100%, 22%);
   padding: 3%;
-  width: 320px;
+  width: 300px;
   border-radius: 25px;
 }
 .luxury {
   background-color: hsl(179, 100%, 13%);
   padding: 5%;
-  width: 320px;
+  width: 300px;
   border-radius: 25px;
 }
 button {
