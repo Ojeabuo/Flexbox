@@ -90,7 +90,7 @@ button {
 @media (max-width: 875px) and (min-width: 375px) {
   main {
   display: flex;
-  flex-direction: column;
+  flex-direction:;
   width: 70%;
   margin: auto;
   height: 100vh;
