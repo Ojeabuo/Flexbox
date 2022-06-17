@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items:center;
+  background: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+}
+h1 {
+  color:hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+header {
+  margin-bottom: 30px;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 100%;
+  height: 500px;
+}
+.Suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  width: 100%;
+  height: 500px;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  width: 100%;
+  height: 500px;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.se {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+.se:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+.suv {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+.suv:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+.lux {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+}
+.lux:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+.btn1, .btn3 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.btn2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+@media (max-width: 875px) and (min-width: 375px) {
+  main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items:center;
+  background: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 3%;
+  width: 100%;
+  
+}
+.Suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 3%;
+  width: 100%;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 5%;
+  width: 100%;
+
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+}
